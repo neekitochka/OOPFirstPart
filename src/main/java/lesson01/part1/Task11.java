@@ -23,12 +23,12 @@ public class Task11 {
 
     private static class Pool {
         final public int a = 25;
-        final protected int b = 25;
+        final protected int b = 5;
         final private int c = 2;
 
-        public long getVolume(int a, int b, int c) {
-            //напишите тут ваш код
-            return 0;
+        public static long getVolume(int a, int b, int c) {
+            long water = a * b * c;
+            return water;
         }
 
     }

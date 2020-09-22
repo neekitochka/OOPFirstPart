@@ -21,13 +21,15 @@ public class Task07 {
      * 4. Метод convertCelsiusToFahrenheit должен правильно переводить градусы Цельсия в градусы Фаренгейта и возвращать это число.
      */
 
+
+
     public static void main(String[] args) {
+
         System.out.println(convertCelsiusToFahrenheit(41));
     }
 
     public static double convertCelsiusToFahrenheit(int celsius) {
-        //напишите тут ваш код
-
-        return 0;
+        double tf = (9/5.0) * celsius + 32;
+        return tf;
     }
 }

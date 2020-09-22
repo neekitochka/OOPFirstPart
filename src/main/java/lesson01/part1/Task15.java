@@ -20,6 +20,7 @@ public class Task15 {
 
     public static void main(String[] args) {
         //Измените код
-        System.out.println(Math.cos(number));
+        System.out.println(Math.pow(number, 2));
     }
+    // да слышал, так как мы проходили C# и C++ в первом и втором семестрах.
 }

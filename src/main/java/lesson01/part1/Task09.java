@@ -26,7 +26,13 @@ public class Task09 {
     }
 
     public static int sumDigitsInNumber(int number) {
-        //напишите тут ваш код
-        return 0;
+        int a = number % 10;
+        number = number / 10;
+        int b = number % 10;
+        number = number / 10;
+        int c = number % 10;
+        int sum = a + b + c;
+        return sum;
     }
+    // при написаниии sout и нажатии на Tab разворачивается команда System.out.println(sumDigitsInNumber();
 }
