@@ -24,4 +24,4 @@ public class Task02 {
         System.out.println("Hello World!\nHello World!\nHello World!");
     }
 }
-    // при прописании psvm и нажатии на Tab происходит саоздание метода main который мы удалили
+    // при прописании psvm и нажатии на Tab происходит саоздание main который мы удалили
